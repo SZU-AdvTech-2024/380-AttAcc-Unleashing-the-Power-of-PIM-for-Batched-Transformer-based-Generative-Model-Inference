@@ -1,16 +1,9 @@
 @inproceedings{REPO380,
     author = "Park, Jaehyun and Choi, Jaewan and Kyung, Kwanhee and Kim, Michael Jaemin and Kwon, Yongsuk and Kim, Nam Sung and Ahn, Jung Ho",
-    address = "New York, NY, USA",
     booktitle = "Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2",
     doi = "10.1145/3620665.3640422",
-    isbn = "9798400703850",
-    keywords = "processing-in-memory, transformer-based generative model, DRAM",
-    location = "La Jolla, CA, USA",
     numpages = "17",
     pages = "103–119",
-    publisher = "Association for Computing Machinery",
-    series = "ASPLOS '24",
     title = "{AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference}",
-    url = "https://doi.org/10.1145/3620665.3640422",
     year = "2024"
 }
