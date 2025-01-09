@@ -1,0 +1,369 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/zzy/cpp_project/attacc_simulator/ramulator2/libramulator.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_subdirectory",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "yaml-cpp::@c1fb6b535d5396bcd0b2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-base::@da17c8cd1000ca7e4b79"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-frontend::@5ac769f44fc6001c3db0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-translation::@b5132a0884764fbb3294"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-memorysystem::@5bb4f1e604af40fb7b1b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-addrmapper::@f270d2898eb5511eb2d6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-dram::@bc552c8b85dc9a26e908"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ramulator-controller::@7dfde9f317c37dd99bf0"
+		}
+	],
+	"id" : "ramulator::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps/yaml-cpp-build/libyaml-cppd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps/spdlog-build/libspdlogd.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ramulator",
+	"nameOnDisk" : "libramulator.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/base/CMakeFiles/ramulator-base.dir/factory.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/base/CMakeFiles/ramulator-base.dir/logging.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/base/CMakeFiles/ramulator-base.dir/utils.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/base/CMakeFiles/ramulator-base.dir/config.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/base/CMakeFiles/ramulator-base.dir/stats.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/base/CMakeFiles/ramulator-base.dir/request.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/frontend/CMakeFiles/ramulator-frontend.dir/impl/memory_trace/loadstore_trace.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/frontend/CMakeFiles/ramulator-frontend.dir/impl/memory_trace/pim_loadstore_trace.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/translation/CMakeFiles/ramulator-translation.dir/impl/no_translation.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/translation/CMakeFiles/ramulator-translation.dir/impl/random_translation.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/memory_system/CMakeFiles/ramulator-memorysystem.dir/impl/dummy_memory_system.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/memory_system/CMakeFiles/ramulator-memorysystem.dir/impl/generic_DRAM_system.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/memory_system/CMakeFiles/ramulator-memorysystem.dir/impl/PIM_DRAM_system.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/addr_mapper/CMakeFiles/ramulator-addrmapper.dir/impl/linear_mappers.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/addr_mapper/CMakeFiles/ramulator-addrmapper.dir/impl/hbm3_linear_mappers.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/addr_mapper/CMakeFiles/ramulator-addrmapper.dir/impl/hbm3_pim_linear_mappers.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/addr_mapper/CMakeFiles/ramulator-addrmapper.dir/impl/rit.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram/CMakeFiles/ramulator-dram.dir/impl/HBM3.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram/CMakeFiles/ramulator-dram.dir/impl/HBM3-PIM.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/dummy_controller.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/generic_dram_controller.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/hbm3_controller.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/hbm3_pim_controller.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/generic_scheduler.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/pim_scheduler.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/refresh/all_bank_refresh.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/refresh/all_bank_refresh_hbm3.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/refresh/no_refresh.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/hbm3_trace_recorder.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/trace_recorder.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zzy/cpp_project/attacc_simulator/build/GCC 12.3.0 x86_64-linux-gnu/Debug/src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/cmd_counter.cpp.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
